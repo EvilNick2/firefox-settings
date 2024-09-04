@@ -86,7 +86,7 @@ user_pref("_user.js.parrot", "0100 syntax error: the parrot's dead!");
  * 0=blank, 1=home, 2=last visited page, 3=resume previous session
  * [NOTE] Session Restore is cleared with history (2811), and not used in Private Browsing mode
  * [SETTING] General>Startup>Restore previous session ***/
-user_pref("browser.startup.page", 1);
+user_pref("browser.startup.page", 3);
 /* 0103: set HOME+NEWWINDOW page
  * about:home=Firefox Home (default, see 0105), custom URL, about:blank
  * [SETTING] Home>New Windows and Tabs>Homepage and new windows ***/
@@ -273,13 +273,13 @@ user_pref("network.gio.supported-protocols", ""); // [HIDDEN PREF] [DEFAULT: "" 
  * [WARNING] Default true is a security feature against malicious extensions [1]
  * [SETUP-CHROME] If you use a proxy and you trust your extensions
  * [1] https://blog.mozilla.org/security/2021/10/25/securing-the-proxy-api-for-firefox-add-ons/ ***/
-   // user_pref("network.proxy.failover_direct", false);
+// user_pref("network.proxy.failover_direct", false);
 /* 0706: disable proxy bypass for system request failures [FF95+]
  * RemoteSettings, UpdateService, Telemetry [1]
  * [WARNING] If false, this will break the fallback for some security features
  * [SETUP-CHROME] If you use a proxy and you understand the security impact
  * [1] https://bugzilla.mozilla.org/buglist.cgi?bug_id=1732792,1733994,1733481 ***/
-   // user_pref("network.proxy.allow_bypass", false);
+// user_pref("network.proxy.allow_bypass", false);
 /* 0710: enable DNS-over-HTTPS (DoH) [FF60+]
  * 0=default, 2=increased (TRR (Trusted Recursive Resolver) first), 3=max (TRR only), 5=off (no rollout)
  * see "doh-rollout.home-region": USA 2019, Canada 2021, Russia/Ukraine 2022 [3]
@@ -288,13 +288,13 @@ user_pref("network.gio.supported-protocols", ""); // [HIDDEN PREF] [DEFAULT: "" 
  * [2] https://wiki.mozilla.org/Security/DOH-resolver-policy
  * [3] https://support.mozilla.org/en-US/kb/firefox-dns-over-https
  * [4] https://www.eff.org/deeplinks/2020/12/dns-doh-and-odoh-oh-my-year-review-2020 ***/
-   // user_pref("network.trr.mode", 3);
+// user_pref("network.trr.mode", 3);
 /* 0712: set DoH provider
  * The custom uri is the value shown when you "Choose provider>Custom>"
  * [NOTE] If you USE custom then "network.trr.uri" should be set the same
  * [SETTING] Privacy & Security>DNS over HTTPS>Increased/Max>Choose provider ***/
-   // user_pref("network.trr.uri", "https://example.dns");
-   // user_pref("network.trr.custom_uri", "https://example.dns");
+// user_pref("network.trr.uri", "https://example.dns");
+// user_pref("network.trr.custom_uri", "https://example.dns");
 
 /*** [SECTION 0800]: LOCATION BAR / SEARCH BAR / SUGGESTIONS / HISTORY / FORMS ***/
 user_pref("_user.js.parrot", "0800 syntax error: the parrot's ceased to be!");
@@ -374,7 +374,7 @@ user_pref("_user.js.parrot", "0900 syntax error: the parrot's expired!");
 /* 0906: enforce no automatic authentication on Microsoft sites [FF91+] [WINDOWS 10+]
  * [SETTING] Privacy & Security>Logins and Passwords>Allow Windows single sign-on for...
  * [1] https://support.mozilla.org/kb/windows-sso ***/
-   // user_pref("network.http.windows-sso.enabled", false); // [DEFAULT: false]
+// user_pref("network.http.windows-sso.enabled", false); // [DEFAULT: false]
 
 /*** [SECTION 1000]: DISK AVOIDANCE ***/
 user_pref("_user.js.parrot", "1000 syntax error: the parrot's gone to meet 'is maker!");
