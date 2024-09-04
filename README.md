@@ -30,6 +30,11 @@ This repository is used to collate my firefox settings
 
 ## :floppy_disk: Settings
 
+#### [user.js](user.js)
+
+The `user.js` file is used to configure and customize Firefox settings. It allows you to set preferences that control the behavior and appearance of the browser. By placing this file in your Firefox profile directory, you can automate the application of these settings every time Firefox starts.
+The `user.js` that I am using is made by [ArkenFox](https://github.com/arkenfox) which is a privacy focused [user.js](https://github.com/arkenfox/user.js)
+
 #### Seperating taskbar icons per profile:
 
 1. Enter `about:config` into the location bar.
