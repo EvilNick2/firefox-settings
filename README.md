@@ -14,6 +14,7 @@
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#rocket-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#settings">Settings</a> &#xa0; | &#xa0;
+  <a href="#jigsaw-extensions">Extensions</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/EvilNick2" target="_blank">Author</a>
 </p>
@@ -40,6 +41,23 @@ The `user.js` that I am using is made by [ArkenFox](https://github.com/arkenfox)
 1. Enter `about:config` into the location bar.
 2. Paste `taskbar.grouping.useprofile` into the search box, then choose Boolean below, then click the Add button. If the value isn't what it should be, click the Toggle button.
 3. Exit then restart Firefox with that profile.
+
+
+## :jigsaw: Extensions ##
+
+List of extensions that I use and recommend:
+
+- [Bitwarden](https://addons.mozilla.org/en-GB/firefox/addon/bitwarden-password-manager/) - Password Manager
+- [Gesturefy](https://addons.mozilla.org/en-GB/firefox/addon/gesturefy/) - Mouse gestures ([Config](extensions/Gesturefy/GesturefyConfig.json))
+- [SponsorBlock](https://addons.mozilla.org/en-GB/firefox/addon/sponsorblock/) - Skip sponsorships on YouTube ([Config](extensions/SponsorBlock/SponsorBlockConfig.json))
+- [Tab Mix Plus](https://onemen.github.io/tabmixplus-docs/) - Enhances Firefox's tab browsing capabilities ([Config](extensions/TabMixPlus/TMPpref.txt))
+- [GX Mods](https://addons.mozilla.org/en-GB/firefox/addon/gx-mods/) - Add ambient music, typing sounds, and more to your browsing experience
+- [FireShot](https://addons.mozilla.org/en-GB/firefox/addon/fireshot/) - Full page screen capture tool that also captures Visible area, or precise Selection even that extend beyond the screen
+- [Live Server](https://addons.mozilla.org/en-GB/firefox/addon/live-server-web-extension/) - Live Reload feature for Dynamic content. This extension is for Live Server - VSCode Extension
+- [Dark Reader](https://addons.mozilla.org/en-GB/firefox/addon/darkreader/) - Dark mode for every website
+- [Catppuccin for Web File Explorer Icons](https://addons.mozilla.org/en-GB/firefox/addon/catppuccin-web-file-icons/) - Soothing pastel icons for file explorers on the web!
+- [Save webP as PNG](https://addons.mozilla.org/en-GB/firefox/addon/save-webp-as-png-or-jpeg/) -  Convert any image (WebP, AVIF, etc.) to PNG or JPEG
+
 
 
 ## :memo: License ##
